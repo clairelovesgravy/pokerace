@@ -92,7 +92,7 @@ main {
 
 /* 使app-store中的按钮和图像垂直居中 */
 .app-store {
-  padding-top: 15px;
+  padding-top: 25px;
   display: flex;
   align-items: center;
   justify-content: center; }

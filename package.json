@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "responsive portdolio website",
+  "main": "index.js",
+  "homepage": "https://clairelovesgravy.github.io/personal_website",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Claire",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.0",
+    "node-sass": "^9.0.0"
+  }
+}

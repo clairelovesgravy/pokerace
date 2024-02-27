@@ -1,0 +1,12 @@
+// 对于较小的屏幕，调整布局使得picture和description堆叠显示
+@include mediaSm {
+  .features .item {
+    flex-direction: column;
+  }
+}
+
+@include mediaMd {
+  .features .item {
+    flex-direction: column;
+  }
+}
